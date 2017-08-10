@@ -79,7 +79,7 @@
             <h1 class="animated fadeInDown delay-3s" style="color:#01C0D5;font-family: 'Audiowide'"><B>SUHAS DHONGADE</B></h1>
             <hr />
             <h5 class="we-create animated fadeInDown delay-7s" style="color:#ffffff;font-family: 'Share';font-size:25px;">Full Stack Web Developer</h5>
-            <a href="#service"><span class="glyphicon glyphicon-circle-arrow-down delay-1s" style="color:#FFCB41; font-size:50px;" /></a>
+            <a href="#about" class="clsAbout"><span class="glyphicon glyphicon-circle-arrow-down delay-1s" style="color:#FFCB41; font-size:50px;" /></a>
         </div>
     </header><!--header-end-->
 
@@ -95,38 +95,63 @@
                 <li><a href="#team">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            <a class="res-nav_click" href="#">Suhas<i class="fa-bars"></i></a>
         </div>
     </nav><!--main-nav-end-->
     <section class="main-section" id="about">
         <div class="container">
-
             <div class="row">
-                <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+                <div class="col-lg-4 col-sm-7 wow fadeInLeft delay-05s">
                     <h2>About Me</h2>
                     <table class="table" style="width:100%">
+                        <colgroup>
+                            <col width="30%" />
+                            <col width="70%" />
+                        </colgroup>
                         <tbody>
                             <tr>
-                                <td>Name :</td>
-                                <td><b>Suhas Dhongade</b></td>
+                                <td><b>Name</b></td>
+                                <td>Suhas Dhongade</td>
                             </tr>
                             <tr>
-                                <td>DOB :</td>
-                                <td><b>25-Jan-1988</b></td>
+                                <td><b>DOB</b></td>
+                                <td>25-Jan-1988</td>
                             </tr>
                             <tr>
-                                <td>Address :</td>
-                                <td><b>Asawari Building Nanded City Sinhgad Road Pune</b></td>
+                                <td><b>Work With</b></td>
+                                <td>Accenture Solutions Ltd</td>
                             </tr>
-
+                            <tr>
+                                <td><b>Position</b> </td>
+                                <td>Software Engineering Senior Analyst</td>
+                            </tr>
+                            <tr>
+                                <td><b>I am </b></td>
+                                <td>Senior .net programmer with across various domains like P&C insurance, Telecom, Storage, Cloud with robust technical expertise on web technologies. Experienced to work with diverse and multi-location teams with various models including agile, waterfall methodologies.</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
                 <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-                    <img src="img/macbook-Suhas.png" alt="">
+                    <table>
+                        <tr>
+                            <td><img src="img/macbook-Suhas.png" alt="" height="80%" width="80%"></td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding-left:40%;">
+                                <div>
+                                    <ul class="social-link">
+                                        <li class="github"><a href="https://github.com/suhasdhongade" target="_blank"><i class="fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/suhas-dhongade-a22b02a/" target="_blank"><i class="fa-linkedin"></i></a></li>
+                                        <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </figure>
             </div>
-        </div>
     </section>
     <section class="main-section" id="service">
         <!--main-section-start-->
@@ -398,11 +423,11 @@
                         <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
                     </div>
                     <ul class="social-link">
-                        <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
-                        <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
-                        <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
+                        <li class="github"><a href="https://github.com/suhasdhongade" target="_blank"><i class="fa-github"></i></a></li>
+                        <!--<li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>-->
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/suhas-dhongade-a22b02a/" target="_blank"><i class="fa-linkedin"></i></a></li>
                         <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                        <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
+                        <!--<li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
                     </ul>
                 </div>
                 <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
@@ -448,6 +473,7 @@
     <script type="text/javascript">
         $(document).ready(function (e) {
             $('#test').scrollToFixed();
+
             $('.res-nav_click').click(function () {
                 $('.main-nav').slideToggle();
                 return false
@@ -455,7 +481,7 @@
             });
 
         });
-    </script>
+    </script>test
 
     <script>
         wow = new WOW(
@@ -471,7 +497,7 @@
     <script type="text/javascript">
         $(window).load(function () {
 
-            $('.main-nav li a, .servicelink').bind('click', function (event) {
+            $('.main-nav li a, .servicelink, .clsAbout').bind('click', function (event) {
                 var $anchor = $(this);
 
                 $('html, body').stop().animate({
