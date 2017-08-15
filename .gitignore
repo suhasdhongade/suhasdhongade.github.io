@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/roslyn/VBCSCompiler.exe.config
+/bin/roslyn/VBCSCompiler.exe
+/bin/roslyn/vbc.exe
+/bin/roslyn/System.Reflection.Metadata.dll
+/bin/roslyn/System.Collections.Immutable.dll
+/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/bin/roslyn/Microsoft.CSharp.Core.targets
+/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/bin/roslyn/Microsoft.CodeAnalysis.dll
+/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/bin/roslyn/csc.exe
+/bin/PersonalWeb.dll
+/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
